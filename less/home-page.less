@@ -4,12 +4,36 @@
 
   .intro {
 
+    h1 {
+      margin-top: 10px;
+      text-align: center;
+    }
+
     h2 {
       padding: 15px;
     }
 
     p {
       padding:0 15px;
+    }
+
+    nav {
+      .custom-layout(center, center);
+    }
+
+    nav a {
+      margin: 2rem;
+      text-decoration-line: none;
+      font-size: 1.6rem;
+      color: @nav-font;
+    }
+
+    img {
+      border-radius: 5px;
+    }
+
+    .title {
+      background-color: @nav-bg;
     }
   
   }
@@ -73,3 +97,7 @@
     }
   }
 }// home
+
+// img {
+//   border-radius: 10px;
+// }
