@@ -224,6 +224,7 @@ footer {
 }
 .home .intro .title {
   background-color: #F6F6F6;
+  opacity: 0.9;
 }
 .home .space-images {
   display: flex;
@@ -347,6 +348,7 @@ footer {
 }
 .about .intro .title {
   background-color: #F6F6F6;
+  opacity: 0.9;
 }
 .about .space-images {
   display: flex;
