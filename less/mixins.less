@@ -3,17 +3,17 @@
 .custom-button(@width, @height) {
   width: @width;
   height: @height;
-  background-color: @button-bg;
-  color: @main-bg;
+  background-color: @btn-bg-color;
+  color: white;
   font-size: 2rem;
-  border-radius: 20px;
-  border: 1px solid @button-bg;
+  border-radius: 10px;
+  border: 1px solid @btn-bg-color;
   cursor: pointer;
   .custom-layout(center, center);
     
   &:hover {
-    background-color: @main-bg;
-    color: @button-bg;
+    background-color: white;
+    color: @btn-bg-color;
   }
 }
 
